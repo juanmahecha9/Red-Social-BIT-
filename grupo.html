@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos css/grupo.css">
+    <title>Grupos</title>
+    <link rel="icon" href="./iconos/network.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="./script/header.js"></script>
+</head>
+<body>
+    <header id="header"></header>
+    <br>
+    <br>
+    <br>
+    <section>
+        <!-- #. VENTANA EMERGENTE  -->
+        <div class="ventana-crear" id="ventanaGrupo">
+            <div class="btn-cerrar" id="btnCerraVentana">
+                <img src="img/close.svg" alt="" width="100%">
+            </div>
+            <h3>Crea un nuevo grupo</h3>
+
+            <div class="box-crear">
+                <div class="box-crear__img">
+                    <img src="img/logogrupo.svg" alt="" width="100%">
+                </div>
+                <div class="box-crear__texto">
+                    Los grupos son la opción ideal para concretarmuchos 
+                    temas y estar en contacto con las personas que quieres.
+                    Comparte fotos y videos, mantén conversaciones, haz 
+                    planes y más.
+                </div>
+            </div>
+
+            <h3>Asigna un nombre al grupo</h3>
+            <div class="box-nombre">
+                <input type="text" name="" id="inpNombreGrupo">
+            </div>
+
+            <h3>Selecciona la privacidad</h3>
+            <div class="box-priv">
+                <div class="box-priv__img">
+                    <img src="img/priva2.svg" alt="" width="100%" id="imgPriv">
+                </div>
+
+                <div class="box-priv__seleccion">
+                    <select name="" id="selectPriv">
+                        <option value="publico">Publico</option>
+                        <option value="privado">Privado</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="btn-crear" id="btnCrearGrupo">Crear</div>
+        </div>
+        
+        <!-- 1. CAJA TEXTO BIENVENIDA -->
+        <div class="box-intro">
+            <div class="box-titulogo">
+                <div class="logo-main">
+                    <img src="img/logomain.svg" alt="" width="100%">
+                </div>
+                <h2>GRUPOS</h2>
+            </div>
+
+            <p class="intro-texto">Bienvenido/a a la sección de grupos, aquí podrás acceder o crear tus grupos para compartir
+               más de tus experiencias y contenidos exclusivos con amigos y conocidos.</p>
+        </div>
+
+        <div class="cont-boxes">
+            <input type="checkbox" name="" id="checkLateral" style="display: none;">
+            <label type="checkbox" for="checkLateral" id="btnLateral"> 
+                <img src="img/arrowLateral.svg" alt="" width="100%">
+            </label>
+
+            <!-- 2. CAJA LATERAL -->
+            <div class="box-lateral">
+                <div class="buscar">
+                    <h3>Buscar</h3>
+                    <div class="barra-buscar">
+                        <div class="barra">
+                            <input type="text">
+                        </div>
+                        <div id="btnBuscar" class="btn-buscar">
+                            <img src="img/buscar.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+    
+                <div class="crear">
+                    <h3>Crea tu grupo</h3>
+                    <div id="btnVentana" class="btn-ventana">
+                        + Crear grupo
+                    </div>
+                </div>
+
+                <hr>
+    
+                <div class="pertenece">
+                    <h3>Grupos a los que perteneces</h3>
+                    <div class="pertenece__lista">
+                        
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="tuyos">
+                    <h3>Tus grupos</h3>
+                    <div class="tuyos__lista"></div>
+                </div>
+
+            </div>
+
+            <!-- 3. CAJA PRINCIPAL -->
+
+            <!-- 3.1 CAJA SUGERENCIAS -->
+            <div class="cont-boxes__duo">
+                <div class="box-sugerencias">
+                    <h3>Sugerencia</h3>
+                    <span>Grupos que puedan interesarte</span>
+        
+                    <div class="cont-cards-sug">
+                        <div class="card" id="card01">
+                            <div class="card__img">
+                                <img src="img/jovenes.png" alt="" width="100%'">
+                            </div>
+                            <div class="card__texto">
+                                <h4 id="nombre01">Sector jovenes creadores </h4>
+                                <span>6587 Miembros</span>
+                            </div>
+                            <div class="card__btn" onclick="unirse(event)">
+                                Unirte
+                            </div>
+                        </div>     
+                        
+                        <div class="card" id="card02" >
+                            <div class="card__img">
+                                <img src="img/arquitectura.png" alt="" width="100%'">
+                            </div>
+                            <div class="card__texto">
+                                <h4 id="nombre02">Arquitectura moderna</h4>
+                                <span>5002 Miembros</span>
+                            </div>
+                            <div class="card__btn" onclick="unirse(event)" >
+                                Unirte                                
+                            </div>
+                        </div> 
+        
+                        <div class="card" id="card03">
+                            <div class="card__img">
+                                <img src="img/teatro.png" alt="" width="100%'">
+                            </div>
+                            <div class="card__texto">
+                                <h4 id="nombre03">Parche teatral</h4>
+                                <span>4021 Miembros</span>
+                            </div>
+                            <div class="card__btn" onclick="unirse(event)">
+                                Unirte
+                            </div>
+                        </div>
+                        
+                        <div class="card" id="card04">
+                            <div class="card__img">
+                                <img src="img/cuadros.jpg" alt="" width="100%'">
+                            </div>
+                            <div class="card__texto">
+                                <h4 id="nombre0
+                                4">Pintura al oleo</h4>
+                                <span>4021 Miembros</span>
+                            </div>
+                            <div class="card__btn" onclick="unirse(event)">
+                                Unirte
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="box-categorias">
+                    <h3>Categorias</h3>
+                    <span>Grupos que puedan interesarte</span>
+        
+                    <div class="cont-cards-cate">
+                        <div class="card--1 card--cate">
+                            <h4>Pasatiempos e intereses</h4>
+                        </div>
+        
+                        <div class="card--2 card--cate">
+                            <h4>Humor</h4>
+                        </div>
+        
+                        <div class="card--3 card--cate">
+                            <h4>Compra venta</h4>
+                        </div>
+        
+                        <div class="card--4 card--cate">
+                            <h4>Deportes</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<script src="/script/grupo.js"> </script>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta charset="utf-8">
+	<title>Red Social</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Your custom styles (optional) -->
+	<link href="css/compiled-4.8.11.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <!-- <link rel="stylesheet" href="css/animate.css"> -->
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="fondo_animado">
+
+  <!-- Navbar -->                                        
+  <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logobit2.png"alt="" style="width: 15%; height:70px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>    
+  <!-- Navbar -->
+  <!-- Full Page Intro -->
+  <div class="section fondo fondo_animado" id="fondo">
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-gradient">
+      <!-- Content -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6 col-xs-12 white-text text-center text-md-left" id="respuesta_final">
+            <h1 class="h1-responsive font-weight-bold wow fadeInLeft" data-wow-delay="0.3s"> ¡Únete a <b>bit</b>! </h1>
+            <hr class="hr-light wow fadeInLeft" data-wow-delay="0.6s">
+            <h6 class="mb-3 wow fadeInLeft" data-wow-delay="0.9s">
+              <span><b>BIT</b></span> <b>es la red social en la que puedes conocer e interactuar con otras personas, incluyendo tus amigos, y familiares.</b>
+              <br>
+              <br>
+              Regístrate y forma parte de ésta comunidad en crecimiento.
+            </h6>
+            <!-- <a class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.3s">Learn more</a> -->
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-6 col-xs-12" id="formulario">
+            <!--Form-->
+            <!-- Material form login -->
+			<!-- Rotating card -->
+  <div class="card-wrapper card-action wow fadeInRight" data-wow-delay="1.2s">
+    <div id="card-1" class="card card-rotating text-center">
+
+      <!-- Front Side -->
+      <div class="face front">
+
+        <!-- Avatar -->
+        <div class="d-flex justify-content-center align-items-center"><img  class="card-img-top wow fadeInDown" data-wow-delay="1.5s" src="img/logobit2.png" alt="" style="
+				width: 40%;padding-top:30px;">
+        </div>
+
+        <!-- Content -->
+        <div class="card-body">
+          
+        	<!-- Form -->
+			    <form class="text-center" id="registro" style="color: #80bdff ;" action="#!" white="50px";>
+
+			      <!-- Email -->
+			      <div class="md-form wow fadeInDown" data-wow-delay="1.9s">
+			        <input type="text" autocomplete="off" id="nombre" class="form-control white-text" onkeyUp="validacion_global1 = validar('letras', this,'error_nombre');">
+              <label for="materialLoginFormText" class="texto-login"><i class="fas fa-user"></i> Nombre</label>
+              <span class="red-text" id="error_nombre"></span>
+            </div>
+            
+            <div class="md-form wow fadeInDown" data-wow-delay="1.9s">
+			        <input type="text" autocomplete="off" id="apellido" class="form-control white-text" onkeyUp="validacion_global2 = validar('letras', this,'error_apellido');">
+              <label for="materialLoginFormText" class="texto-login"><i class="fas fa-user"></i> Apellido</label>
+              <span class="red-text" id="error_apellido"></span>
+            </div>
+            
+            <div class="md-form wow fadeInDown" data-wow-delay="1.9s">
+			        <input type="email" autocomplete="off" id="email" class="form-control white-text" onkeyUp="validacion_global3 = validar('email', this,'error_email');">
+              <label for="materialLoginFormText" class="texto-login"><i class="fas fa-envelope"></i> Correo Electrónico</label>
+              <span class="red-text" id="error_email"></span>
+			      </div>
+
+			      <!-- Password -->
+			      <div class="md-form wow fadeInDown" data-wow-delay="2.1s">
+			        <input type="password" autocomplete="off" id="password" class="form-control white-text" onkeyUp="validacion_global4 = validar('password', this,'error_password');">
+              <label for="materialLoginFormPassword" class="texto-login"><i class="fas fa-lock"></i> Contraseña</label>
+              <span class="red-text" id="error_password"></span>
+            </div>
+            
+            <div class="md-form wow fadeInDown" data-wow-delay="2.1s">
+			        <input type="password" autocomplete="off" id="password2" class="form-control white-text">
+              <label for="password2" class="texto-login"><i class="fas fa-lock"></i> Repita su contraseña</label>
+              <span class="red-text" id="error_password2"></span>
+			      </div>
+
+			      <div class="d-flex justify-content-around">
+
+			      </div>
+
+			      <!-- Sign in button -->
+      <button class="btn btn-outline-warning btn-rounded btn-block my-4 waves-effect z-depth-0 boton-login wow fadeInUp" data-wow-delay="2.4s" type="submit" id="registrarme">Registrarme</button>
+
+            <!--Footer-->
+            <div class="modal-footer">
+              <div class="red-text options" id="validar_formulario">
+              </div>
+          </div>
+
+			    </form>
+			    <!-- Form -->
+          
+          <button class="btn btn-dark rotate-btn wow fadeInUp" data-wow-delay="2.7s" data-card="card-1">Ya tengo una cuenta</button>
+        </div>
+      </div>
+      <!-- Front Side -->
+
+      <!-- Back Side -->
+      <div class="face back">
+          
+          <!-- Content -->
+          <div class="card-body">
+
+            <!-- Avatar -->
+          <div class="d-flex justify-content-center align-items-center"><img  class="card-img-top wow fadeInDown" data-wow-delay="1.5s" src="img/logobit2.png" alt="" style="width: 40%;padding-top:30px;">
+          </div>
+  <br>
+          <h5 class="card-header white-text text-center py-4 wow fadeInDown yellow" data-wow-delay="1.7s">
+            <i class="fas fa-user"></i> <strong>Iniciar Sesión</strong>
+          </h5>
+            
+            <!-- Form -->
+            <form class="text-center" style="color: #80bdff;" action="#!">
+  
+              <!-- Email -->
+              <div class="md-form wow fadeInDown" data-wow-delay="1.9s">
+                <input type="text" id="login_usuario" class="form-control white-text">
+                <label for="materialLoginFormText" class="texto-login"><i class="fas fa-user"></i> Usuario (Su correo electronico)</label>
+              </div>
+  
+              <!-- Password -->
+              <div class="md-form wow fadeInDown" data-wow-delay="2.1s">
+                <input type="password" id="login_password" class="form-control white-text">
+                <label for="materialLoginFormPassword" class="texto-login"><i class="fas fa-lock"></i> Contraseña</label>
+              </div>
+  
+              <!-- Sign in button -->
+              <button class="btn btn-warning rotate-btn wow fadeInUp" data-wow-delay="2.7s" id="login_boton">Ingresar</button>
+
+              <div class="d-flex justify-content-around red-text" id="login_validacion">  
+              </div>
+
+            </form>
+            <!-- Form -->
+
+            <!-- Triggering button -->
+            <button class="btn btn-dark rotate-btn wow fadeInUp" data-wow-delay="2.7s" data-card="card-1"><i class="fas fa-undo"></i> Quiero registrarme</button>
+          <!-- <a class="rotate-btn" data-card="card-1"></a> -->
+          </div>
+        
+      </div>
+      <!-- Back Side -->
+
+    </div>
+  </div>
+  <!-- Rotating card -->
+			<!-- Material form login -->
+            <!--/.Form-->
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Content -->
+    </div>
+    <!-- Mask & flexbox options-->
+  </div>
+  <!-- Full Page Intro -->
+<a href=""></a>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/compiled.768.min.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+<script  src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
+
+    <!-- PERSONALIZADO -->
+    <script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>
+

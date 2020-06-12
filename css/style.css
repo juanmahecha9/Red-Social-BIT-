@@ -1,0 +1,167 @@
+.md-form label { left:0 !important; }
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* .view.fondo{ */
+    /* background: url('../img/fondo5.jpg'); */
+    /* background-size: cover !important; */
+  /* } */
+label,p,button,h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif !important;}
+/* .view.fondo{
+    background-image: url('../img/fondo1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; */
+/* } */
+/* .texto-login{color:#ffffff!important;} */
+.boton-login{color:#005082 !important;}
+.card-wrapper .card-rotating .face,.card-wrapper .avatar img{
+    /* background: transparent; */
+    background: #000839;
+    border:none;
+}
+.boton-login{
+    color:#000839;
+    background-color: #000839;
+}
+h6{
+    color:#000839;
+}
+/* html,
+body,
+header, */
+.section {
+    height: 100%;
+}
+/* .view .mask{overflow: auto;} */
+
+.view,.view .container, .row{
+    padding: 60px 40px;
+}
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    /* .view {
+    height: 1000px;
+    } */
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    /* .view {
+    height: 650px;
+    } */
+}
+
+.top-nav-collapse {
+    background-color: #000839!important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: #000839!important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+    background: #000839!important;
+    }
+}
+navbar-toggler{
+    color: aqua;
+}
+.rgba-gradient {
+ /* background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.1) 100%); */
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.1) 100%));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 1), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+    background-color: #000839;
+}
+
+.md-form label {
+    color: #005082;
+}
+
+h6 {
+    line-height: 1.9;
+    color: #f0ffff;
+    font-size: 30px;
+}
+span{ 
+    color: #000839;
+}
+/* body{
+    background: url('../img/fondo4.jpg');
+    background-size: cover;
+} */
+body.fondo_animado {
+    color:#000839;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    /* -webkit-animation: anim 5s infinite; */
+    /* animation: anim 10s infinite; */
+    animation-play-state: running;
+
+    transition: all .25s ease-in-out;
+    /*background: url('../img/fondo2.jpg'o);
+    background-size: cover;
+    background-position: center center;
+}
+@keyframes anim{
+    /* 0% {background: url('../img/fondo1.jpg');background-size:cover;background-position: center center;} 
+    10% {background: url('../img/fondo2.jpg');background-size:cover;background-position: center center;}
+    20% {background: url('../img/fondo3.jpg');background-size:cover;background-position: center center;} */
+    0% {background: url('../img/fondo2.jpg');background-size:cover;background-position: center center;}
+    30% {background: url('../img/fondo8.jpg');background-size:cover;background-position: center center;}
+    60% {background: url('../img/fondo6.jpg');background-size:cover;background-position: center center;}
+    /* 60% {background: url('../img/fondo7.jpg');background-size:cover;background-position: center center;}
+    70% {background: url('../img/fondo8.jpg');background-size:cover;background-position: center center;}
+    80% {background: url('../img/fondo9.jpg');background-size:cover;background-position: center center;}
+    90% {background: url('../img/fondo10.jpg');background-size:cover;background-position: center center;} */
+    /* 100% {background: url('../img/fondo10.jpg');background-size:cover;background-position: center center;} */
+ 
+ }
+
+
+ .btn-primary,.blue,.yellow{
+    background-color:#fca800 !important;
+}
+.btn-primary:hover{
+    background-color:#cc8800 !important;
+}
+.btn-outline-warning {
+    border: 2px solid #fb3!important;
+    background-color: #ffc107!important;
+    color:#000839!important;
+
+
+}
+.white-text {
+    color: #ffc107!important;
+    
+
+    }
+
+    strong {
+        font-weight: bolder;
+        color: black;
+        
+
+        }
+        .btn-warning {
+            background-color: #fb3!important;
+            color: #212529;
+
+            }
+
+
+
+            .fas {
+                font-weight: 900;
+                color:#f0ffff;
+            }
+            
+                body{
+                    background-color: #80bdff;
+                }

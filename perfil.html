@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIT Perfil</title>
+    <link rel="icon" href="./iconos/portfolio.png">
+
+    <link rel="stylesheet" href="/estilos css/slider.css">
+    <link rel="stylesheet" href="./estilos css/header.css">
+    <link rel="stylesheet" href="./estilos css/perfil.css">
+    <link rel="stylesheet" href="./estilos css/scroll.css">
+    <script src="./script/header.js"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <br>
+    <div class="modoOscuro">
+        <div id="divbotonmo" class="mo1">
+            <button id="mo">MODO OSCURO</button>
+        </div>
+    </div>
+    <br>
+    <div id="usuario">
+        <br>
+        <div class="upload-btn-img" id="us1">
+            <img src="/imagen/woman-dreadlock-skullcandy-headphone.jpg" class="imagen " alt="IMAGEN DE PERFIL">
+            <input type="file" name="myfile[]" onchange="show(this)" />
+
+            <div class="informacion">
+                <br>
+                <div class="ewq">
+<div class="nombre">
+    <h1>Bienvenid@</h1>
+                    <h1 id="dato"> </h1>
+</div>
+                    
+                    <button class="qwe"> ~SEGUIR~ </button>
+                </div>
+                <p class="seguidores"> 537 seguidores 😎 </p>
+                <p class="seguidores">2,542 seguidos 👀</p>
+
+                <br>
+                <span class="in">🎂</span> <span id="dato1"></span>
+                <br>
+                </span class="in">🌎<span id="dato3"></span>
+                <br>
+                <span class="in">🏄‍♂️</span> <span id="dato2"></span>
+                <span>
+                    <br>
+                    <button id="editar" class="editar"> Editar perfil </button>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="photobanner">
+            <img src="/imagen/1.jpg" alt="">
+            <img src="/imagen/2.jpg" alt="">
+            <img src="/imagen/3.jpg" alt="">
+            <img src="/imagen/4.jpg" alt="">
+            <img src="/imagen/5.jpg" alt="">
+            <img src="/imagen/6.jpg" alt="">
+            <img src="/imagen/7.jpg" alt="">
+            <img src="/imagen/8.jpeg" alt="">
+        </div>
+    </div>
+
+
+    <br>
+    <div id="btnPublicar">
+        <button id="btn1">Nueva publicacion</button>
+    </div><br><br><br><br>
+
+    <div id="contenedor" class="ocultarContenido">
+        <div class="publicacion">
+            <div class="nuevaPublicacion">
+                <textarea id="publica"></textarea>
+                <div class="espacio">
+                    <div class="espacio1">
+                        <label class="fileContainer">
+                            <img src="/icono/photo-camera.png" alt="">
+                            <span>Cargar</span>
+                            <input id="cargarImg" type="file" name="uploadNewImage">
+                        </label></div>
+                </div>
+            </div>
+        </div>
+        <div class="botones">
+            <div class="uno">
+                <button id="pub">Publicar</button>
+                <button id="can">Cancelar/Cerrar</button>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="fotos">
+        <h1 id="f1"> 📸 Tus Fotos publicadas</h1>
+        <div id="muestraImg" class="galeria">
+            <div id="f1" class="picture">
+                <img class="foto" id="imagen1" src="/imagen/woman-dreadlock-skullcandy-headphone.jpg">
+                <p class="texto">😇</p>
+                <button id="a" class="button" onclick="elimina1()"> 🗑 </button>
+            </div>
+            <div id="f1" class="picture">
+                <img class="foto" id="imagen1" src="/imagen/IMG_0237.jpg"><input type="checkbox">
+                <p class="texto">🤓
+                </p>
+                <button id="aa" class="button" onclick="elimina2()"> 🗑</button>
+            </div>
+            <div id="f1" class="picture">
+                <img class="foto" id="imagen1" src="/imagen/Screenshot_20200319-183517.png"><input type="checkbox">
+                <p class="texto">#DragonBallZ 😆</p>
+                <button id="aaa" class="button" onclick="elimina3()"> 🗑 </button>
+            </div>
+            <div id="f1" class="picture">
+                <img class="foto" id="imagen1" src="/imagen/maxresdefault.jpg"><input type="checkbox">
+                <p class="texto">#Bogota'sNigth 😆</p>
+                <button id="aaa" class="button" onclick="elimina3()"> 🗑 </button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <br>
+
+
+    <!-- cargar mediante ajax la barra de navecaion -->
+
+    <script src="./script/ocultarPublicacion.js"></script>
+    <script src="./script/fotoUsuario.js"></script>
+    <script src="./script/publicacionNueva.js"></script>
+    <script src="./script/editar.js"></script>
+    <script src="/script/js.js"></script>
+</body>
+
+</html>
